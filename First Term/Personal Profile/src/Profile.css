@@ -1,0 +1,123 @@
+/* src/Profile.css */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9;
+  padding: 15px; /* Reduced padding for compactness */
+  border-radius: 10px; /* Slightly smaller border radius */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a compact look */
+  max-width: 600px; /* Reduced maximum width */
+  width: 90%; /* Adjust width to fit screen */
+  margin: 20px auto; /* Center horizontally with some vertical spacing */
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  margin: 700px;
+}
+
+.profile-image {
+  width: 120px; /* Smaller profile image size */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px; /* Reduced space below the image */
+}
+
+.profile-name {
+  font-size: 24px; /* Smaller font size for name */
+  color: #333;
+  margin: 5px 0; /* Reduced margin */
+}
+
+.profile-tagline {
+  font-size: 16px; /* Slightly smaller font size for tagline */
+  color: #777;
+  text-align: center;
+}
+
+.profile-bio {
+  margin-top: 10px; /* Reduced margin */
+  font-size: 14px; /* Smaller font size for bio */
+  color: #555;
+  text-align: center;
+}
+
+.profile-contact {
+  margin-top: 10px; /* Reduced margin */
+  text-align: center; /* Center contact information */
+}
+
+.profile-contact p {
+  margin: 5px 0; /* Reduced margin for compactness */
+  font-size: 14px; /* Smaller font size for contact information */
+}
+
+.profile-contact a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none;
+}
+
+.profile-contact a:hover {
+  text-decoration: underline;
+}
+
+.profile-social-links {
+  margin-top: 10px; /* Reduced margin */
+  text-align: center; /* Center social links */
+}
+
+.profile-social-links a {
+  margin: 0 8px; /* Smaller margin between links */
+  text-decoration: none;
+  color: #007bff; /* Blue color for social links */
+  font-size: 14px; /* Smaller font size for social links */
+}
+
+.profile-social-links a:hover {
+  text-decoration: underline;
+}
+
+.profile-skills,
+.profile-hobbies,
+.profile-experience {
+  margin-top: 15px; /* Reduced margin */
+  width: 100%;
+}
+
+.profile-skills h2,
+.profile-hobbies h2,
+.profile-experience h2 {
+  font-size: 18px; /* Smaller font size for section headings */
+  margin-bottom: 8px; /* Reduced margin */
+  color: #007bff; /* Blue color for section headings */
+  text-align: center; /* Center section headings */
+}
+
+.profile-skills ul,
+.profile-hobbies ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center list items */
+}
+
+.profile-skills li,
+.profile-hobbies li {
+  margin-bottom: 5px; /* Reduced margin */
+  font-size: 14px; /* Smaller font size for list items */
+  color: #333; /* Dark grey text color */
+}
+
+.profile-experience .experience-item {
+  margin-bottom: 15px; /* Reduced margin */
+  text-align: left;
+}
+
+.profile-experience h3 {
+  font-size: 16px; /* Smaller font size for experience headings */
+  color: #007bff; /* Blue color for experience headings */
+}
+
+.profile-experience p {
+  font-size: 14px; /* Smaller font size for experience description */
+  color: #666; /* Light grey text color */
+}
