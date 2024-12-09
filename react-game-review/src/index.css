@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #cce7ff, #007bff); /* Light blue to dark blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+
+.app {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+
+.add-game, .select-game, .submit-review {
+    margin-bottom: 30px;
+}
+
+.add-game h2, .select-game h2, .submit-review h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.game-reviews {
+    margin-top: 30px;
+}
+
+.game-reviews h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.game-reviews ul {
+    list-style: none;
+    padding: 0;
+}
+
+.game-reviews li {
+    font-size: 1.1rem;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+
+.game-reviews li h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.game-reviews li small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .app {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input, textarea, select, button {
+        font-size: 0.95rem;
+    }
+}
